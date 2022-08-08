@@ -27,9 +27,6 @@ class AccountTest {
     @Mock(fieldName = "checkoutMethodMock3")
     CheckoutMethod checkoutMethodMock3;
 
-    @Mock(fieldName = "checkoutMethodMock4")
-    CheckoutMethod checkoutMethodMock4;
-
     @Test
     public void testCheckoutMethod() {
         Item item1 = new Item(10);
